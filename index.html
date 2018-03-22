@@ -1,1 +1,59 @@
-<h1> Hello world</h1>
+<DOCTYPE! html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="https://use.typekit.net/yor1rir.css">
+  
+  <script
+  src="https://code.jquery.com/jquery-3.3.1.min.js"
+  integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+  crossorigin="anonymous"></script>
+  <script src="bower_components/fitvids/jquery.fitvids.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
+  <title>Kevin Farris</title>
+</head>
+<body>
+	<div class="stars"></div>
+	<header>
+		<div class="container">
+			<div class="logo">
+				<h1>Kevin Farris</h1>
+			</div>
+			<nav class="menu">
+				<ul class="list--inline">
+					<li><a href="#shows">Shows</a></li>
+					<li><a href="#video">Video</a></li>
+					<li><a href="#music">Music</a></li>
+				</ul>
+			</nav>
+		</div>
+	</header>
+	<div class="site-wrap wrapper">
+		<section id="shows" class="site-block">
+			<div class="container">
+				<h2>Shows</h2>
+				<script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Kevin Farris and The Infinite Possibilities" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#31465C" data-link-color="#22CB65" data-popup-background-color="#FFFFFF" data-background-color="#FFFFFF" data-display-limit="20" data-link-text-color="#FFFFFF"></a>
+			</div>
+		</section>
+		<section id="video" class="site-block">
+			<div class="container">
+				<h2>Video</h2>
+				<div class="video-wrap">
+					<iframe width="560" height="315" src="https://www.youtube.com/embed/m9wIgJNDeBI" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+				</div>
+			</div>
+		</section>
+		<section id="music" class="site-block">
+			<div class="container">
+				<h2>Music</h2>
+			</div>
+		</section>
+	</div>
+	
+	<script>
+	  $(document).ready(function(){
+	    $(".video-wrap").fitVids();
+	  });
+	</script>
+</body>
+</html>
