@@ -1300,6 +1300,278 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/fa\/css\/fa-brands.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-brands-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fa-brands.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-brands.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fa-light.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-light-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fa-light.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-light.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fa-regular.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-regular-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fa-regular.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-regular.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fa-solid.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-solid-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fa-solid.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fa-solid.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fontawesome-all.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fontawesome-all-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fontawesome-all.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fontawesome-all.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fontawesome.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fontawesome-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/css\/fontawesome.min.css": {
+		"aP": 1,
+		"bl": 0,
+		"ft": 16,
+		"ma": 0,
+		"oA": 0,
+		"oAP": "\/fa\/css\/fontawesome.min-min.css",
+		"oF": 0,
+		"oS": 3
+		},
+	"\/fa\/webfonts\/fa-brands-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-brands-400.eot",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-brands-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fa\/webfonts\/fa-brands-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fa\/webfonts\/fa-brands-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-brands-400.ttf",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-brands-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-brands-400.woff",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-brands-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-brands-400.woff2",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-light-300.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-light-300.eot",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-light-300.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fa\/webfonts\/fa-light-300.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fa\/webfonts\/fa-light-300.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-light-300.ttf",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-light-300.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-light-300.woff",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-light-300.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-light-300.woff2",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-regular-400.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-regular-400.eot",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-regular-400.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fa\/webfonts\/fa-regular-400.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fa\/webfonts\/fa-regular-400.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-regular-400.ttf",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-regular-400.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-regular-400.woff",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-regular-400.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-regular-400.woff2",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-solid-900.eot": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-solid-900.eot",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-solid-900.svg": {
+		"ft": 2097152,
+		"miP": 0,
+		"oA": 2,
+		"oAP": "\/fa\/webfonts\/fa-solid-900.svg",
+		"oF": 0,
+		"opt": 0,
+		"plM": 3758088159,
+		"prP": 0
+		},
+	"\/fa\/webfonts\/fa-solid-900.ttf": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-solid-900.ttf",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-solid-900.woff": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-solid-900.woff",
+		"oF": 0
+		},
+	"\/fa\/webfonts\/fa-solid-900.woff2": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/fa\/webfonts\/fa-solid-900.woff2",
+		"oF": 0
+		},
 	"\/images\/header.jpg": {
 		"ft": 16384,
 		"iS": 646513,
