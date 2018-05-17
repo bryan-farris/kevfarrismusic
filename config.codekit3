@@ -7,7 +7,7 @@
 		"uuidString": "E9CA13AA-38A1-4D79-9ED8-FCC2FAF1C04D"
 		}
 	],
-"creatorBuild": "26330",
+"creatorBuild": "26680",
 "files": {
 	"\/bower.json": {
 		"ft": 524288,
@@ -1300,6 +1300,13 @@
 		"sC": 1,
 		"tS": 0
 		},
+	"\/CNAME": {
+		"cB": 0,
+		"ft": 8192,
+		"oA": 0,
+		"oAP": "\/CNAME",
+		"oF": 0
+		},
 	"\/fa\/css\/fa-brands.css": {
 		"aP": 1,
 		"bl": 0,
@@ -1575,6 +1582,7 @@
 	"\/images\/header.jpg": {
 		"ft": 16384,
 		"iS": 646513,
+		"jF": 0,
 		"oA": 0,
 		"oAP": "\/images\/header.jpg",
 		"oF": 0,
@@ -1590,6 +1598,17 @@
 		"oF": 0,
 		"oIPL": 1,
 		"opt": 1,
+		"oT": 1,
+		"q": 100
+		},
+	"\/images\/logo.png": {
+		"ft": 32768,
+		"iS": 8191,
+		"oA": 0,
+		"oAP": "\/images\/logo.png",
+		"oF": 0,
+		"oIPL": 0,
+		"opt": 0,
 		"oT": 1,
 		"q": 100
 		},
@@ -1690,7 +1709,8 @@
 	"creationDate": 542858080,
 	"displayValue": "kevfarrismusic",
 	"displayValueWasSetByUser": 0,
-	"iconImageName": "meme-fry"
+	"iconImageName": "meme-fry",
+	"iconImageWasSetByUser": 0
 	},
 "projectSettings": {
 	"abortBuildOnError": 1,
@@ -3493,6 +3513,7 @@
 		"autoOutputPathReplace1": "",
 		"autoOutputPathReplace2": "",
 		"autoOutputPathStyle": 0,
+		"outputFormat": 0,
 		"quality": 100
 		},
 	"languageDefaultsJS": {

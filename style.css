@@ -118,6 +118,7 @@ header > .container {
 	width: 100%;
 	min-height: 500px;
 	padding: 125px 0;
+	box-sizing: border-box;
 }
 .container {
 
@@ -130,9 +131,18 @@ header > .container {
 #shows {
 	background: url(images/shows-kev.png) no-repeat bottom right;
 	min-height: 550px;
+	padding-top: 0;
 }
 #shows .bit-widget-container {
 	width: 70%;
+}
+.bit-widget {
+	font-family: "canada-type-gibson", sans-serif !important;
+}
+.bit-widget .bit-event .bit-date, .bit-widget .bit-event .bit-button,
+.bit-widget .bit-event .bit-location,
+.bit-widget .bit-event-list-title {
+	font-weight: 500;
 }
 .bit-widget a,
 .bit-widget a:hover {
