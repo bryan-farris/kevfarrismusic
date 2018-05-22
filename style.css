@@ -187,6 +187,9 @@ header > .container {
 	content: '';
 	background: #fff;
 }
+.bit-widget .bit-event .bit-details {
+	padding-left: 20px;
+}
 
 /* VIDEO */
 #video {
