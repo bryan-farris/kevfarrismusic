@@ -265,4 +265,8 @@ header > .container {
 		right: auto;
 		left: 0;
 	}
+	#connect ul li a {
+		margin-bottom: 30px;
+		display: block;
+	}
 }
