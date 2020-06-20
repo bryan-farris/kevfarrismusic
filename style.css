@@ -96,6 +96,13 @@ ul, ol {
 	display: inline-block;
 }
 
+/* NAV */
+.nav-menu__list {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-between;
+}
+
 /* HEADER */
 header {
 	margin: 180px 0 250px 0;
