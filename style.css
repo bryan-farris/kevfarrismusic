@@ -101,6 +101,11 @@ ul, ol {
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
+    list-style: none;
+}
+
+.nav-menu__list {
+    list-style: none;
 }
 
 /* HEADER */
