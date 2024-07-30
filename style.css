@@ -235,8 +235,9 @@ header > .container {
 
 .spotify-tracker {
 	position: absolute;
-	top: -50px;
+	top: -100px;
 	right: 30px;
+	width: 500px;
 }
 
 
