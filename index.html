@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="/fa/css/fontawesome-all.min.css">
+  <link rel="stylesheet" href="fa/css/fontawesome-all.min.css">
   <link rel="stylesheet" href="https://use.typekit.net/yor1rir.css">
 
   <script
@@ -11,65 +11,35 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   <script src="bower_components/fitvids/jquery.fitvids.js"></script>
+  <link rel="stylesheet" type="text/css" media="screen" href="assets/MyWebfontsKit.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <title>Kevin Farris | Singer | Songwriter | Chicago, IL</title>
 </head>
 <body>
-	<div class="stars"></div>
-	<header>
-		<div class="container">
-			<div class="logo">
-				<img src="images/logo.png" alt="Kevin Farris" width="330" />
-			</div>
-			<nav class="menu">
-				<ul class="nav-menu__list">
-					<li><a href="#shows">Shows</a></li>
-					<li><a href="#video">Video</a></li>
-					<li><a href="#music">Music</a></li>
-					<li><a href="#connect">Connect</a></li>
-				</ul>
-			</nav>
-			<div class="spotify-tracker">
-				<iframe style="border-radius:12px" src="https://open.spotify.com/embed/artist/3izou1NUQHM7gbYXeCmjiT?utm_source=generator&theme=0" width="100%" height="152" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" loading="lazy"></iframe>
-			</div>
+	<picture class="bg-img">
+	  <source srcset="images/bg.avif" type="image/avif">
+	  <source srcset="images/bg.webp" type="image/webp">
+	  <img src="images/bg.jpg" alt="" style="width: 100vw; height: 100vh; object-fit: cover;">
+	</picture>
+	<section class="page-wrap">
+		<div class="social-links">
+			<ul class="list--inline">
+				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
+				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
+				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
+			</ul>
 		</div>
-	</header>
-	<div class="site-wrap wrapper">
-		<section id="shows" class="site-block">
-			<div class="container">
-				<h2>Shows</h2>
-				<script charset="utf-8" src="https://widget.bandsintown.com/main.min.js"></script><a class="bit-widget-initializer" data-artist-name="Kevin Farris" data-display-local-dates="false" data-display-past-dates="true" data-auto-style="false" data-text-color="#000000" data-link-color="#2F95DE" data-popup-background-color="#FFFFFF" data-background-color="#FFFFFF" data-display-limit="15" data-link-text-color="#FFFFFF"></a>
-
-			</div>
-		</section>
-		<section id="video" class="site-block">
-			<div class="container">
-				<h2>Video</h2>
-				<div class="video-wrap">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/YJ_3BW2BBDs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-				</div>
-			</div>
-		</section>
-		<section id="music" class="site-block">
-			<div class="container">
-				<h2>Music</h2>
-				<iframe src="https://open.spotify.com/embed/artist/3izou1NUQHM7gbYXeCmjiT" width="100%" height="200" frameborder="0" allowtransparency="true" allow="encrypted-media"></iframe>
-			</div>
-		</section>
-		<section id="connect" class="site-block">
-			<div class="container">
-				<h2>Connect</h2>
-				<ul class="list--inline">
-					<li><a href="mailto: KevinLFarris@gmail.com"><span class="sr">Email</span><i class="fal fa-envelope"></i></a></li>
-					<li><a href="https://www.facebook.com/KevinFarrisMusic/" target="_blank"><span class="sr">Facebook</span><i class="fab fa-facebook-square"></i></a></li>
-					<li><a href="https://www.instagram.com/kevfarris/" target="_blank"><span class="sr">Instagram</span><i class="fab fa-instagram"></i></a></li>
-					<li><a href="https://www.youtube.com/channel/UCtL87OLBwbAx8deCZlW8mOQ" target="_blank"><span class="sr">YouTube</span><i class="fab fa-youtube"></i></a></li>
-					<li><a href="https://soundcloud.com/kevinfarris" target="_blank"><span class="sr">Soundcloud</span><i class="fab fa-soundcloud"></i></a></li>
-				</ul>
-			</div>
-		</section>
-	</div>
-
+		<h1 class="site-title">Kevin Farris</h1>
+		<div class="nav-wrap">
+			<ul class="list--inline nav-menu__list">
+				<li><a href="#">Home</a></li>
+				<li><a href="#">Bio</a></li>
+				<li><a href="#">Music</a></li>
+				<li><a href="#">Shows</a></li>
+				<li><a href="#">Contact</a></li>	
+			</ul>
+		</div>
+	</section>
 	<script>
 	  $(document).ready(function(){
 	    $(".video-wrap").fitVids();

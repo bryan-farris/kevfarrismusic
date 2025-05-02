@@ -9,6 +9,34 @@
   ],
   "creatorBuild" : "34689",
   "files" : {
+    "\/assets\/MyWebfontsKit.css" : {
+      "aP" : 1,
+      "bl" : 0,
+      "ci" : 0,
+      "co" : 0,
+      "ft" : 16,
+      "ma" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/MyWebfontsKit-min.css",
+      "oF" : 0,
+      "pg" : 0
+    },
+    "\/assets\/webFonts\/VeronaSerialRegular\/font.woff" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/webFonts\/VeronaSerialRegular\/font.woff",
+      "oF" : 0
+    },
+    "\/assets\/webFonts\/VeronaSerialRegular\/font.woff2" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/assets\/webFonts\/VeronaSerialRegular\/font.woff2",
+      "oF" : 0
+    },
     "\/bower_components\/fitvids\/.bower.json" : {
       "ft" : 524288,
       "oA" : 2,
@@ -1751,6 +1779,38 @@
       "oA" : 0,
       "oAP" : "\/googlee18ef1d1c850d5d7.html",
       "oF" : 0
+    },
+    "\/images\/bg.avif" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/bg.avif",
+      "oF" : 0
+    },
+    "\/images\/bg.jpg" : {
+      "ft" : 16384,
+      "iS" : 15487661,
+      "jF" : 0,
+      "oA" : 0,
+      "oAP" : "\/images\/bg.jpg",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-none",
+      "q" : 100,
+      "rq" : 75
+    },
+    "\/images\/bg.webp" : {
+      "ft" : 8388608,
+      "iS" : 1096170,
+      "oA" : 0,
+      "oAP" : "\/images\/bg.webp",
+      "oF" : 0,
+      "oIPL" : 0,
+      "opt" : 0,
+      "ou" : "lpckwebp-default",
+      "rq" : 75
     },
     "\/images\/header.jpg" : {
       "ft" : 16384,
