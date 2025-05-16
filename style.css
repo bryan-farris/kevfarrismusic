@@ -48,6 +48,10 @@ h2 {
 	letter-spacing: 3px;
 }
 
+p {
+	line-height: 1.4;
+}
+
 /* LINKS */
 a {
 	border-bottom: 2px solid transparent;
@@ -101,6 +105,13 @@ ul, ol {
 	align-items: center;
 	flex-flow: column wrap;
 	justify-content: center;
+}
+.bio {
+	max-width: 60%;
+	margin: 0 auto;
+	padding: 2rem;
+	background: rgba(355,355,355,0.6);
+	color: #333;
 }
 
 /* HEADER */
