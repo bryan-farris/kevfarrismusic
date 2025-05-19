@@ -36,7 +36,7 @@ h1, h2, h3, h4, h5, h6 {
 h1.site-title {
 	color: #FAF9F6;
 	font-family: VeronaSerialRegular, Georgia, serif;
-	font-size: clamp(3rem, 10vw, 8rem);
+	font-size: clamp(2vw, 10vw, 8rem);
 	margin: 2rem auto;
 	text-transform: uppercase;
 }
@@ -257,7 +257,6 @@ header > .container {
 		flex-flow: column nowrap;
 		overflow-y: scroll;
 		height: 100vh;
-		justify-content: flex-start;
 		margin: 0;
 	}
 	.bio {
@@ -265,8 +264,6 @@ header > .container {
 		margin-bottom: 3rem;
 	}
 	#footer-wrap {
-		margin-top: auto;
-		margin-bottom: 3rem;
 	}
 }
 @media screen and (max-width: 500px) {
