@@ -11,39 +11,35 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   <script src="bower_components/fitvids/jquery.fitvids.js"></script>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="main-min.js"></script>
   <link rel="stylesheet" type="text/css" media="screen" href="assets/MyWebfontsKit.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <title>Kevin Farris | Singer | Songwriter | Chicago, IL</title>
 </head>
 <body>
 	<picture class="bg-img">
-	  <source srcset="images/bg.avif" type="image/avif">
-	  <source srcset="images/bg.webp" type="image/webp">
-	  <img src="images/bg.jpg" alt="" style="width: 100vw; min-height: 100vh; object-fit: cover;">
+		<source srcset="images/bg.avif" type="image/avif">
+		<source srcset="images/bg.webp" type="image/webp">
+		<img src="images/bg.jpg" alt="" style="width: 100vw; min-height: 100vh; object-fit: cover;">
 	</picture>
-	<section class="page-wrap">
-		<div class="social-links">
-			<ul class="list--inline">
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-			</ul>
-		</div>
-		<h1 class="site-title">Kevin Farris</h1>
-		<div class="nav-wrap">
-			<ul class="list--inline nav-menu__list">
-				<li><a href="#">Home</a></li>
-				<li><a href="about.html">Bio</a></li>
-				<li><a href="#">Music</a></li>
-				<li><a href="#">Shows</a></li>
-				<li><a href="#">Contact</a></li>	
-			</ul>
-		</div>
-	</section>
-	<script>
-	  $(document).ready(function(){
-	    $(".video-wrap").fitVids();
-	  });
-	</script>
+	<div id="barba-wrapper" data-barba="wrapper">
+		<div class="barba-container" data-barba="container" data-barba-namespace="home">
+		  <main>
+			<section class="page-wrap">
+				<div id="header-wrap"></div>
+				
+				<div id="footer-wrap"></div>
+			</section>
+			<script>
+			$(document).ready(function(){
+				$(".video-wrap").fitVids();
+				
+				
+			});
+			</script>
+		  </main>
+	  </div>
+	</div>
 </body>
 </html>

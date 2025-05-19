@@ -11,50 +11,43 @@
   integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
   crossorigin="anonymous"></script>
   <script src="bower_components/fitvids/jquery.fitvids.js"></script>
+  <script src="https://unpkg.com/@barba/core"></script>
+  <script src="main-min.js"></script>
   <link rel="stylesheet" type="text/css" media="screen" href="assets/MyWebfontsKit.css" />
   <link rel="stylesheet" type="text/css" media="screen" href="style.css" />
   <title>Kevin Farris | Singer | Songwriter | Chicago, IL</title>
 </head>
 <body>
 	<picture class="bg-img">
-	  <source srcset="images/bg.avif" type="image/avif">
-	  <source srcset="images/bg.webp" type="image/webp">
-	  <img src="images/bg.jpg" alt="" style="width: 100vw; min-height: 100vh; object-fit: cover;">
+		<source srcset="images/bg.avif" type="image/avif">
+		<source srcset="images/bg.webp" type="image/webp">
+		<img src="images/bg.jpg" alt="" style="width: 100vw; min-height: 100vh; object-fit: cover;">
 	</picture>
-	<section class="page-wrap">
-		<div class="social-links">
-			<ul class="list--inline">
-				<li><a href="#"><i class="fab fa-twitter"></i></a></li>
-				<li><a href="#"><i class="fab fa-facebook"></i></a></li>
-				<li><a href="#"><i class="fab fa-youtube"></i></a></li>
-			</ul>
-		</div>
-		<h1 class="site-title">Kevin Farris</h1>
-		<div class="bio">
-			<p>“I think the Midwest has shaped a lot of who and what I am”</p>
+	<div id="barba-wrapper" data-barba="wrapper">
+		<div class="barba-container" data-barba="container" data-barba-namespace="about">
+		  <main>
+			<section class="page-wrap">
+				<div id="header-wrap"></div>
 				
-			<p>A product of the Chicagoland area, like many, Kevin’s musical journey started way back when...with familial influence, and a desire to dive deep into his own artistry. </p>
+				<div class="bio">
+					<p class="quote">“I think the Midwest has shaped a lot of who and what I am.”</p>
+					
+					<p>Hailing from the Chicagoland area, Kevin’s musical journey began like it does for many — with a mix of family influence and a deep need to carve out his own artistic voice.</p>
+					
+					<p>Over the years, he cycled through various touring bands and projects before stepping into the spotlight as a solo artist on NBC’s The Voice, where he joined Nick Jonas’s team. That appearance introduced a wider audience to Kevin’s gritty, soulful sound — a blend of introspective lyrics and infectious melodies.</p>
+					
+					<p>Since then, he’s collaborated with fellow Midwesterners like Matt Walker (Smashing Pumpkins, Morrissey, Filter) and Jim Peterik (Survivor, The Ides of March), all while continuing to write and perform in support of his latest EP.</p>
+				</div>
 				
-				
-			<p>After several years and iterations of different touring bands and projects, his journey evolved into an international television appearance as a solo artist on NBC’s hit show, The Voice as a member of Nick Jonas’s team. The appearance provided a broader introduction into his gritty/soulful sound rife with catchy melodies and introspection. </p>
-				
-				
-			<p>Since then, Kevin has had the opportunity to work alongside fellow Midwest musicians Matt Walker (Smashing Pumpkins, Morrissey, Filter) and Jim Peterik (Survivor, The Ides of March) while continuing to perform and write for his latest ep.</p>
-		</div>
-		<div class="nav-wrap">
-			<ul class="list--inline nav-menu__list">
-				<li><a href="#">Home</a></li>
-				<li><a href="#">Bio</a></li>
-				<li><a href="#">Music</a></li>
-				<li><a href="#">Shows</a></li>
-				<li><a href="#">Contact</a></li>	
-			</ul>
-		</div>
-	</section>
-	<script>
-	  $(document).ready(function(){
-	    $(".video-wrap").fitVids();
-	  });
-	</script>
+				<div id="footer-wrap"></div>
+			</section>
+			<script>
+			$(document).ready(function(){
+				$(".video-wrap").fitVids();
+			});
+			</script>
+		  </main>
+	  </div>
+	</div>
 </body>
 </html>

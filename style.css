@@ -49,7 +49,7 @@ h2 {
 }
 
 p {
-	line-height: 1.4;
+	line-height: 1.6;
 }
 
 /* LINKS */
@@ -73,6 +73,9 @@ ul, ol {
 }
 
 /* NAV */
+nav {
+	text-align: center;
+}
 .nav-menu__list {
     display: flex;
     flex-flow: row nowrap;
@@ -106,12 +109,30 @@ ul, ol {
 	flex-flow: column wrap;
 	justify-content: center;
 }
+#footer-wrap {
+	margin-top: 6rem;
+}
 .bio {
 	max-width: 60%;
 	margin: 0 auto;
 	padding: 2rem;
-	background: rgba(355,355,355,0.6);
+	background: rgba(355,355,355,0.7);
 	color: #333;
+}
+
+.bio p {
+	font-size: 1.2rem;
+}
+
+.bio p:last-of-type {
+	margin-bottom: 0;
+}
+
+.bio .quote {
+	font-family: VeronaSerialRegular, Georgia, serif;
+	font-size: 2rem;
+	line-height: 1.4;
+	font-weight: 700;
 }
 
 /* HEADER */
@@ -192,6 +213,13 @@ header > .container {
 
 
 /* MOBILE */
+@media screen and (max-width: 1024px) {
+	.bio {
+		max-width: 90%;
+		margin-bottom: 3rem;
+	}
+}
+
 @media screen and (max-width: 768px) {
 	header {
 		margin: 30px 0 70px 0;
@@ -222,6 +250,23 @@ header > .container {
 		position: absolute;
 		top: 0px;
 		right: 30px;
+	}
+	
+	.page-wrap {
+		background: rgba(0,0,0,0.5);
+		flex-flow: column nowrap;
+		overflow-y: scroll;
+		height: 100vh;
+		justify-content: flex-start;
+		margin: 0;
+	}
+	.bio {
+		max-width: 90%;
+		margin-bottom: 3rem;
+	}
+	#footer-wrap {
+		margin-top: auto;
+		margin-bottom: 3rem;
 	}
 }
 @media screen and (max-width: 500px) {
