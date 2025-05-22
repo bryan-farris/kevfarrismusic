@@ -258,6 +258,7 @@ header > .container {
 		overflow-y: scroll;
 		height: 100vh;
 		margin: 0;
+		justify-content: space-between;
 	}
 	.bio {
 		max-width: 90%;
