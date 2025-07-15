@@ -97,6 +97,7 @@ nav {
 	top: 0;
 	z-index: 1;
 }
+
 .page-wrap {
 	background: rgba(0,0,0,0.3);
 	min-height: calc(100vh - clamp(16px, 5vw, 40px) * 2);
@@ -109,9 +110,11 @@ nav {
 	flex-flow: column wrap;
 	justify-content: center;
 }
+
 #footer-wrap {
 	margin-top: 6rem;
 }
+
 .bio {
 	max-width: 60%;
 	margin: 0 auto;
@@ -256,14 +259,16 @@ header > .container {
 		background: rgba(0,0,0,0.5);
 		flex-flow: column nowrap;
 		overflow-y: scroll;
-		height: 100vh;
+		height: 100dvh;
 		margin: 0;
 		justify-content: space-between;
 	}
+	
 	.bio {
 		max-width: 90%;
 		margin-bottom: 3rem;
 	}
+	
 	#footer-wrap {
 	}
 }
