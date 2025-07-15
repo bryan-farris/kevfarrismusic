@@ -272,7 +272,7 @@ header > .container {
 		flex-flow: column nowrap;
 		overflow-y: scroll;
 		height: 100dvh;
-		min-height: none;
+		min-height: 0px;
 		margin: 0;
 		justify-content: space-between;
 		padding-top: 32px;
