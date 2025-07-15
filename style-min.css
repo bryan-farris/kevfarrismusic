@@ -284,6 +284,7 @@ header > .container {
 	}
 
 	#footer-wrap {
+		margin-top: 0;
 	}
 }
 @media screen and (max-width: 500px) {
