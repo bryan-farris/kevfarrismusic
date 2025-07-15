@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', function () {
 	
 function loadPartials() {
-  console.log("Running loadPartials");
+  //console.log("Running loadPartials");
 
   const header = document.querySelector('#header-wrap');
   const footer = document.querySelector('#footer-wrap');
@@ -11,7 +11,7 @@ function loadPartials() {
 	  .then(res => res.text())
 	  .then(data => {
 		header.innerHTML = data;
-		console.log("Header loaded");
+		//console.log("Header loaded");
 	  });
   }
 
@@ -20,7 +20,7 @@ function loadPartials() {
 	  .then(res => res.text())
 	  .then(data => {
 		footer.innerHTML = data;
-		console.log("Footer loaded");
+		//console.log("Footer loaded");
 	  });
   }
 }
