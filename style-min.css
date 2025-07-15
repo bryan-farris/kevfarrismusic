@@ -261,7 +261,7 @@ header > .container {
 		overflow-y: scroll;
 		height: 100dvh;
 		margin: 0;
-		justify-content: space-between;
+		justify-content: flex-start;
 	}
 	
 	.bio {
@@ -270,6 +270,7 @@ header > .container {
 	}
 	
 	#footer-wrap {
+		margin-top: auto;
 	}
 }
 @media screen and (max-width: 500px) {
